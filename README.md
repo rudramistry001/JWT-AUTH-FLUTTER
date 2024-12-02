@@ -1,7 +1,8 @@
 # jwt_starter
 
-A new Flutter project.
+This FLutter repository includes the implementation of the json web token(JWT) Authentication done using Flutter.
 
+For the state management Provider is used along with mvvm for file directory strucuture.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
