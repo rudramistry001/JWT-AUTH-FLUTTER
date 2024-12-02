@@ -14,7 +14,7 @@ import 'package:jwt_starter/utils/loading_screen.dart';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-class RegisterViewModel extends ChangeNotifier {
+class RegisterViewModel with ChangeNotifier {
   RegisterRepository registerRepository = RegisterRepository();
 
   Future registerUser(context, RegisterModel register) async {

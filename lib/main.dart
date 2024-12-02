@@ -5,6 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:jwt_starter/authentication/login_screen.dart';
 import 'package:jwt_starter/screens/home_screen.dart';
+import 'package:jwt_starter/view%20model/register_viewmodel.dart';
+import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Global key to keep track of the navigator state.
@@ -22,7 +24,14 @@ void main() async {
 
   final prefs = await SharedPreferences.getInstance();
   final token = prefs.getString('token'); // Check if token exists
-  runApp(MyApp(isLoggedIn: token != null));
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => RegisterViewModel()),
+      ],
+      child: MyApp(isLoggedIn: token != null),
+    ),
+  );
 }
 
 // MyApp class which represents the root of our application.

@@ -117,6 +117,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 price: "₹200 for two",
                 rating: 4.5,
               ),
+              const RestaurantCard(
+                name: "The Food Lounge",
+                cuisines: "Italian, Chinese",
+                price: "₹200 for two",
+                rating: 4.5,
+              ),
+              const RestaurantCard(
+                name: "The Food Lounge",
+                cuisines: "Italian, Chinese",
+                price: "₹200 for two",
+                rating: 4.5,
+              ),
+              const RestaurantCard(
+                name: "The Food Lounge",
+                cuisines: "Italian, Chinese",
+                price: "₹200 for two",
+                rating: 4.5,
+              ),
 
               ElevatedButton(
                 onPressed: () async {
