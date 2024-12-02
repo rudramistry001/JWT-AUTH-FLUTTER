@@ -22,5 +22,4 @@ samples, guidance on mobile development, and a full API reference.
 
 # IMPLEMENTATION
 
-![WhatsApp Image 2024-12-02 at 11 02 21](https://github.com/user-attachments/assets/4b2d0625-0971-4dcd-aa69-e909246e919f)
-![WhatsApp Image 2024-12-02 at 11 02 21 (1)](https://github.com/user-attachments/assets/4245dbbe-74bc-4cd9-b2cc-6c9c2cf10c43)
+![WhatsApp Image 2024-12-02 at 11 02 21](https://github.com/user-attachments/assets/4b2d0625-0971-4dcd-aa69-e909246e919f)  ![WhatsApp Image 2024-12-02 at 11 02 21 (1)](https://github.com/user-attachments/assets/4245dbbe-74bc-4cd9-b2cc-6c9c2cf10c43)
