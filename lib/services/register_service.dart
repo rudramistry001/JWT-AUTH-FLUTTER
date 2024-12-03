@@ -6,7 +6,6 @@ import 'package:jwt_starter/constants/urls.dart';
 import 'package:jwt_starter/model/auth_model.dart';
 import 'package:jwt_starter/services/base%20service/base_service.dart';
 
-
 class RegisterServices extends BaseApiProvider {
   Future<dynamic> registerUser(RegisterModel registerModel) async {
     var body = registerModel.toJson();

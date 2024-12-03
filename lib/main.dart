@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
   // Constructor with an optional key parameter.
   const MyApp({super.key, required this.isLoggedIn});
 
-  // The build method is used to describe how to display the widget in terms of other, lower-level widgets.
+  // The build method is used to desZcribe how to display the widget in terms of other, lower-level widgets.
   @override
   Widget build(BuildContext context) {
     // ScreenUtilInit is used for setting up screen size dependencies for responsive UI.

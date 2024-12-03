@@ -4,6 +4,7 @@ class RegisterModel {
   String? password;
   String? contactNumber;
   String? token;
+  String? role;
 
   RegisterModel({
     this.fullname,
@@ -11,6 +12,7 @@ class RegisterModel {
     this.password,
     this.contactNumber,
     this.token,
+    this.role,
   });
 
   RegisterModel.fromJson(Map<String, dynamic> json) {
@@ -19,6 +21,7 @@ class RegisterModel {
     password = json['password'];
     token = json['token'];
     contactNumber = json['contactno'];
+    role = json['role'];
   }
 
   Map<String, dynamic> toJson() {
@@ -28,6 +31,7 @@ class RegisterModel {
     data['password'] = password;
     data['contactno'] = contactNumber;
     data['token'] = token;
+    data['role'] = role;
 
     return data;
   }

@@ -267,6 +267,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             register.contactNumber =
                                 contactnoController.text.trim();
                             register.password = passwordController.text.trim();
+                            register.role = "user";
                             registerViewModel
                                 .registerUser(context, register)
                                 .then((value) {

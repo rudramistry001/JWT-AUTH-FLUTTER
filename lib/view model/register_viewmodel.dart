@@ -44,6 +44,7 @@ class RegisterViewModel with ChangeNotifier {
             context,
             MaterialPageRoute(builder: (context) => const LoginScreen()),
             (route) => false);
+        loading.stopLoading();
         notifyListeners();
       } else {
         final jsonResponse = json.decode(response.body);

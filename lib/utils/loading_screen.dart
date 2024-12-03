@@ -13,8 +13,6 @@ class LoadingScreen extends StatefulWidget {
 }
 
 class _LoadingScreenState extends State<LoadingScreen> {
-  final bool _isNavigationComplete = false;
-
   @override
   void initState() {
     super.initState();
